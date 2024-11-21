@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        .hello, .blah{
+            color: red;
+            text-decoration: underline;
+        }
+
+    .myh22{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="heading1" onmouseleave="myFunction()">Dom manipulation</h1>
+    <h1 id="heading11">Intro to DOM <span style="display: none;">(document object model)</span></h1>
+
+    <h1 id="heading1" onclick="document.getElementById('para1').innerHTML = 'blah'">Dom manipulation number 2</h1>
+    
+    <p class="para1" id="para1">Para1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, rerum minima nulla tempora fuga odio ratione, laborum ullam earum nesciunt repudiandae at ipsam dolorem hic ipsa mollitia dolores reiciendis tenetur!</p>
+
+    <input type="text">
+    <input type="email">
+
+    <h2 class="listItem1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quia?</h2>
+
+    <ul id="list">
+        <li class="listItem">List Item One</li>
+        <li class="listItem">List Item Two</li>
+        <li class="listItem">List Item Three</li>
+        <li class="listItem">List Item Four</li>
+        <li class="listItem">List Item Five</li>
+    </ul>
+
+    <a href="#" class="btn1">click me</a>
+
+    <ol id="list2">
+        <li class="listItem1">List Item One</li>
+        <li class="listItem1">List Item Two</li>
+        <li class="listItem1">List Item Three</li>
+        <li class="listItem1">List Item Four</li>
+        <li class="listItem1">List Item Five</li>
+    </ol>
+
+    <button class="btn">Click Me</button>
+    <button class="btn2" id="myBtn2">Click Me Again</button>
+    <h1 id="myH1"></h1>
+
+    <form>
+        <input type="text" id="formText"><br><br>
+        <button>submit</button>
+        <!-- <input type="submit"> -->
+    </form> <br>
+
+    <h1 class="blah">Removing, toggling and adding css class to html elements</h1>
+    <p class="blah2">Lorem ipsum dolor sit amet.</p>
+    <button class="btn3">Click</button>
+    <h2 class="myh22">Hello</h2>
+
+    <script src=".././../js/Dom/events.js"></script>
+</body>
+</html>
+
+
